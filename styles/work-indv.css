@@ -7,16 +7,16 @@
 .jumbotron {
 	min-height: 200px;
 	padding-bottom: 0;
-	background-color: #caebf2;
 	border-bottom: 30px solid #545454;
+	background-color: #caebf2;
 }
 
 .jumbotron-secondary {
 	min-height: 200px;
-	padding-bottom: 0;
-	background-color: #efefef;
-	border-bottom: none;
 	margin-bottom: 0;
+	padding-bottom: 0;
+	border-bottom: none;
+	background-color: #efefef;
 }
 
 .work-secondary {
@@ -25,12 +25,11 @@
 
 .work-wk {
 	margin-bottom: 60px;
-	/*width: 100%;*/
 }
 
 .work-center {
-	text-align: center;
 	margin: 0 auto 60px;
+	text-align: center;
 }
 
 .hero-image {
@@ -55,13 +54,13 @@
 }
 
 .work_title {
+	margin-bottom: 30px;
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	font-size: 24px;
 	font-style: normal;
 	font-variant: normal;
 	line-height: 28px;
 	color: #ff3b3f;
-	margin-bottom: 30px;
 }
 
 .btn {
@@ -69,13 +68,13 @@
 }
 
 .btn-website {
+	margin-bottom: 20px;
 	color: #fff;
 	background-color: #ff3b3f;
 	border: none;
 	border-radius: 0;
 	transition-property: transform;
 	transition-duration: 0.3s;
-	margin-bottom: 20px;
 }
 
 .btn-website:hover
@@ -92,13 +91,13 @@
 }
 
 .work-li {
+	margin-bottom: 10px;
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	font-size: 16px;
 	font-style: normal;
 	font-variant: normal;
 	line-height: 28px;
 	color: #545454;
-	margin-bottom: 10px;
 }
 
 .work-li:last-child {

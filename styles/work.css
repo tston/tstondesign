@@ -1,19 +1,19 @@
 /* WORK LANDING STYLES */
 
-.tile {  }
+.tile {}
 
 .default-margin {
 	margin-bottom: 90px;
 }
 
 .btn-work {
-	height: 115px;
 	width: 100%;
-	color: #efefef;
-	background-color: transparent;
+	height: 115px;
+	margin: 15px auto;
 	border-radius: 0;
 	padding: 30px;
-	margin: 15px auto;
+	color: #efefef;
+	background-color: transparent;
 }
 
 .btn-work:hover,
@@ -82,9 +82,9 @@ a:hover {
 
 .jumbotron-landing {
 	min-height: 700px;
-	background-color: #ffffff;
-	border-bottom: none;
 	margin-bottom: 0;
+	border-bottom: none;
+	background-color: #ffffff;
 }
 
 .tile-title {

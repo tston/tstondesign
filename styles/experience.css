@@ -98,7 +98,7 @@
 
 @media (min-width: 768px) {
     .jumbotron-homey {
-        background: url(/beta/images/main_background_1.jpg) repeat-x;
+        background: url(/images/main_background_1.jpg) repeat-x;
         background-size: 100%;
         background-position-x: 100%;
         background-position-y: 50%;
@@ -114,7 +114,7 @@
     }
 
     .jumbotron-homey {
-        background: url(/beta/images/main_background_1.jpg) repeat-x;
+        background: url(/images/main_background_1.jpg) repeat-x;
         background-size: 300%;
         background-position-x: 54%;
         background-position-y: 54%;
