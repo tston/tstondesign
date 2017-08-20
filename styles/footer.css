@@ -1,0 +1,76 @@
+/* FOOTER STYLES */
+
+.footer {
+	position: relative;
+  	bottom: 0;
+  	width: 100%;
+  	min-height: 200px;
+  	background-color: #545454;
+  	text-align: center;
+}
+
+.flexy {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+}
+
+.footer_title {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: 100;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 28px;
+	color: #efefef;
+	margin: 40px 0 20px;
+	text-align: center;
+}
+
+.btn-footer {
+	color: #efefef;
+	background-color: transparent;
+	border: 2px solid #efefef;
+	margin: 0 10px 20px;
+	border-radius: 0;
+	transition-property: transform;
+	transition-duration: 0.3s;
+}
+
+a {
+	color: #efefef;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #efefef;
+	text-decoration: none;
+}
+
+.btn-footer:hover,
+.btn-footer:active,
+.btn-footer:focus,
+.btn-default:active:hover,
+.btn-default.active:hover {
+	color: #efefef;
+	background-color: transparent;
+	border: 2px solid #efefef;
+	cursor: pointer;
+	transform: scale(1.1);
+	outline: none;
+}
+
+.footer-booger {
+	height: 15px;
+	background: url(/beta/images/footer-strip.jpg) repeat-x;
+}
+
+.jumbotron-footer {
+	min-height: 15px;
+	padding-top: 0;
+	padding-bottom: 0;
+	background-color: #545454;
+	border-bottom: none;
+	margin-bottom: 0;
+}

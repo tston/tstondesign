@@ -1,0 +1,41 @@
+/* WORK PAGE STYLES */
+
+.jumbotron {
+	min-height: 200px;
+	padding-bottom: 0;
+	background-color: #caebf2;
+	border-bottom: 30px solid #545454;
+}
+
+.jumbotron-about {
+	min-height: 200px;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	background-color: #efefef;
+	border-bottom: none;
+	margin-bottom: 0;
+}
+
+.about-image {
+	display: block;
+	margin: 0 auto;
+	max-width: 500px;
+	width: inherit;
+}
+
+.about_title {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 36px;
+	font-weight: bold;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 50px;
+	color: #ff3b3f;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.about-quote {
+	font-size: 72px;
+}

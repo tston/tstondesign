@@ -1,0 +1,149 @@
+/* WORK LANDING STYLES */
+
+.tile {
+	/*height: 115px;
+	width: 100%;*/
+	/*background-color: #ffffff;
+	text-align: center;
+	padding: 30px;
+	margin: 15px auto;*/
+}
+
+.btn-work {
+	height: 115px;
+	width: 100%;
+	color: #efefef;
+	background-color: transparent;
+	/*border: 2px solid #efefef;*/
+	/*margin: 0 10px 20px;*/
+	border-radius: 0;
+	padding: 30px;
+	margin: 15px auto;
+}
+
+.btn-work:hover,
+.btn-work:active,
+.btn-work:focus,
+.btn-default:active:hover,
+.btn-default.active:hover {
+	color: #efefef;
+	background-color: transparent;
+	/*border: 2px solid #efefef;*/
+	cursor: pointer;
+	outline: none;
+	text-decoration: none;
+}
+
+.work-link {
+	text-decoration: none;
+}
+
+.work-link:hover {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.tile-web {
+	border: 5px solid #ff594a;
+}
+
+.tile-email {
+	border: 5px solid #0182c8;
+}
+
+.tile-design {
+	border: 5px solid #545454;
+}
+
+.tile-arduino {
+	border: 5px solid #b3d1b3;
+}
+
+.tile-publication {
+	border: 5px solid #f69679;
+}
+
+.tile:hover {
+	background-color: #efefef;
+	color: #ffffff;
+}
+
+.landing_title {
+	margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #ff3b3f;
+    text-align: center;
+}
+
+.container-landing {
+	margin: 0 auto;
+}
+
+.jumbotron-landing {
+	min-height: 700px;
+	background-color: #ffffff;
+	border-bottom: none;
+	margin-bottom: 0;
+}
+
+.tile-title {
+    margin: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #545454;
+}
+
+.tile-subtitle {
+    margin: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #545454;
+    font-style: italic;
+}
+
+/*.btn-landing {
+	color: #ffffff;
+    background-color: #ff594a;
+    border-color: none;
+}
+
+.btn-landing:hover {
+	color: #ffffff;
+    background-color: #ff594a;
+    border-color: none;
+}*/
+
+/*.btn-landing {
+	color: #efefef;
+	background-color: transparent;
+	border: 2px solid #efefef;
+	margin: 0 10px 20px;
+	border-radius: 0;
+	transition-property: transform;
+	transition-duration: 0.3s;
+}
+
+.btn-landing:hover,
+.btn-landing:active,
+.btn-landing:focus,
+.btn-default:active:hover,
+.btn-default.active:hover {
+	color: #efefef;
+	background-color: transparent;
+	border: 2px solid #efefef;
+	cursor: pointer;
+	transform: scale(1.1);
+	outline: none;
+}*/
+

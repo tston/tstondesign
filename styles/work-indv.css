@@ -1,0 +1,149 @@
+/* WORK PAGE STYLES */
+
+.default-margin {
+	margin-bottom: 90px;
+}
+
+.jumbotron {
+	min-height: 200px;
+	padding-bottom: 0;
+	background-color: #caebf2;
+	border-bottom: 30px solid #545454;
+}
+
+.jumbotron-secondary {
+	min-height: 200px;
+	padding-bottom: 0;
+	background-color: #efefef;
+	border-bottom: none;
+	margin-bottom: 0;
+}
+
+.work-secondary {
+	margin-bottom: 60px;
+}
+
+.work-wk {
+	margin-bottom: 60px;
+	/*width: 100%;*/
+}
+
+.work-center {
+	text-align: center;
+	margin: 0 auto 60px;
+}
+
+.hero-image {
+	display: block;
+	margin: 0 auto;
+	max-width: 500px;
+	width: inherit;
+}
+
+.work-image-wk {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 650px;
+}
+
+.work-image {
+	display: block;
+	margin: 0 auto;
+	max-width: 650px;
+	width: inherit;
+}
+
+.work_title {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 28px;
+	color: #ff3b3f;
+	margin-bottom: 30px;
+}
+
+.btn {
+	border-radius: 0;
+}
+
+.btn-website {
+	color: #fff;
+	background-color: #ff3b3f;
+	border: none;
+	border-radius: 0;
+	transition-property: transform;
+	transition-duration: 0.3s;
+	margin-bottom: 20px;
+}
+
+.btn-website:hover
+.btn-website:active,
+.btn-website:focus,
+.btn-default:hover {
+	color: #fff;
+	background-color: #ff3b3f;
+	border: none;
+	border-radius: 0;
+	cursor: pointer;
+	transform: scale(1.1);
+	outline: none;
+}
+
+.work-li {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 28px;
+	color: #545454;
+	margin-bottom: 10px;
+}
+
+.work-li:last-child {
+	margin-bottom: 30px;
+}
+
+.container-border {
+	border-bottom: 30px solid #545454;
+}
+
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+	color: #ffffff;
+	text-decoration: none;
+	outline: none;
+}
+
+.btn-default:active, 
+.btn-default.active, 
+.open > .dropdown-toggle.btn-default {
+	color: inherit;
+	background-color: inherit;
+	border-color: inherit;
+}
+
+.btn-default:active,
+.btn-default:focus,
+.btn:focus,
+.btn:active:focus {
+	color: inherit;
+	background-color: inherit;
+	border-color: inherit;
+	outline: none;
+	outline-offset: none;
+}
+
+.stranger-video {
+	width: 100%;
+	max-width: 600px;
+	height: auto;
+	max-height: 600px;
+}
