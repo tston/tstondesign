@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+	<head>
+		<meta charset="utf-8">
+		<title>Tracy Mingin</title>
+		<meta name="description" content="">
+		<meta name="author" content="">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Font Awesome
+		================================================== -->
+		<script src="https://use.fontawesome.com/7be5d48211.js"></script>
+
+		<!-- Bootstrap
+		================================================== -->
+		<link rel="stylesheet" href="http://tstondesign.com/beta/bootstrap/css/bootstrap.css"/>
+
+		<!-- Styles
+		================================================== -->
+		<link rel="stylesheet" href="http://tstondesign.com/beta/styles/core.css"/>	
+		<link rel="stylesheet" href="http://tstondesign.com/beta/styles/navigation.css"/>
+		<link rel="stylesheet" href="http://tstondesign.com/beta/styles/footer.css"/>
+		<link rel="stylesheet" href="http://tstondesign.com/beta/styles/work-indv.css"/>		
+
+		<!-- Favicons
+		================================================== -->
+		<link rel="shortcut icon" href="http://tstondesign.com/beta/images/favicon.png">
+		<link rel="apple-touch-icon" href="http://tstondesign.com/july/apple-touch-icon.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="http://tstondesign.com/july/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="http://tstondesign.com/july/apple-touch-icon-114x114.png">
+
+		<!-- HTML Includes
+		================================================== -->
+		<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+		<script> 
+			$(function(){
+  				$("#navigation").load("/beta/navigation.html"); 
+  				$("#footer").load("/beta/footer.html"); 
+			});
+		</script>
+
+		<!-- Bootstrap core JavaScript
+	    ================================================== -->
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	    <script>window.jQuery || document.write('<script src="http://tstondesign.com/july/js/jquery.js"><\/script>')</script>
+	    <script src="http://tstondesign.com/beta/bootstrap/js/bootstrap.js"></script>
+
+	</head>
+
+	<body>
+
+		<div id="navigation"></div>
+
+		<div class="jumbotron">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 work-main">
+						<img class="hero-image" src="/beta/images/holter.png"/>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container default-margin">
+			<div class="row">
+				<div class="col-xs-12 col-md-7">
+					<h2 class="work_title">
+						Holter Monitor
+					</h2>
+					<p>
+						At Philadelphia University, they are all about collaboration. I was thrilled when one assignment was to team up with a fellow classmate and a graduate student in the Textiles Program. Right off the bat, we wanted to explore options in the medical field. Seeing a need for a child-friendly holter monitor, we jumped into action. A traditional holter monitor attaches to the skin with leads and can be uncomfortable for a typical, active child. Incorporating the electronics directly into the fabric and using microphones instead of leads was a way to make a child more comfortable and not worry about a lead getting knocked off during activity. 
+						<br /><br />
+						The next challenge was handling the data. If a monitor is running for 24 hours and recording every heart beat, that amount of data adds up quick. Writing a program that calibrated what the child's normal heartbeat was versus when the beat was out of the normal threshold range was the next step. Next, working with an SDCard, when the heart beat was out of the normal threshold range, the data was recorded to the SDCard. After 24 hours, the SDCard will hold the irregular heart beats with a timestamp and duration of irregularity. As a bonus, the SDCard is detachable, so the parent can mail back the card as soon as the testing period is over so the doctor can start the analysis sooner and have the results readily available at a follow up appointment.
+					</p>
+					
+				</div>
+
+				<div class="col-xs-12 col-md-offset-1 col-md-4">
+					<h2 class="work_title">
+						Services
+					</h2>
+
+					<ul class="list-unstyled">
+						<li class="work-li">
+							Arduino
+						</li>
+						<li class="work-li">
+							Processing
+						</li>
+					</ul>
+
+				</div>
+			</div>
+		</div>
+
+		<hr>
+
+		<div class="jumbotron jumbotron-secondary">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 work-secondary work-center">
+						<iframe src="http://player.vimeo.com/video/23062011" width="850" height="477" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="footer"></div>
+
+	</body>
+</html>

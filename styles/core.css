@@ -1,0 +1,55 @@
+/* BASE STYLES */
+
+body {
+  	padding-top: 70px;
+}
+
+body p {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 28px;
+	color: #545454;
+}
+
+p {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 28px;
+	color: #545454;
+}
+
+a:hover {
+	color: #ff3b3f;
+}
+
+hr {
+  margin-top: 60px;
+  margin-bottom: 0;
+  border: 0;
+  border-top: 5px solid #545454;
+}
+
+.btn-default:active, 
+.btn-default.active, 
+.open > .dropdown-toggle.btn-default {
+	color: inherit;
+	background-color: inherit;
+	border-color: inherit;
+}
+
+
+
+.btn-default:active,
+.btn-default:focus,
+.btn:focus,
+.btn:active:focus {
+	color: inherit;
+	background-color: inherit;
+	border-color: inherit;
+	outline: none;
+	outline-offset: none;
+}
