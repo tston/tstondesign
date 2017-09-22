@@ -94,6 +94,9 @@ a:hover {
     font-weight: 700;
     line-height: 22px;
     color: #545454;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .tile-subtitle {
@@ -104,4 +107,7 @@ a:hover {
     line-height: 28px;
     color: #545454;
     font-style: italic;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
