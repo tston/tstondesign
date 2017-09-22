@@ -105,4 +105,14 @@
 	  padding: 20px 40px;
 	}
 
+	.nav-h1 {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 28px;
+	font-weight: bold;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 28px;
+	color: #545454;
+}
+
 }
